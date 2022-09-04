@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.img{
+    background-image: url(img/th.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+.about p{
+    margin: 50px 5%;
+    font-family: sans-serif;
+}
+.nav{
+    display: flex;
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cursive;
+    transition: 1s;
+
+}
+.nav h2{
+    color: orangered;
+    padding-left: 30px;
+}
+.nav ul{
+    display: flex;
+    list-style-type:none ;
+}
+.nav ul li {
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* .active{
+    background: black;
+    color: #fff;
+} */
+.nav.active{
+    background: black;
+    transition: 1s;
+}
+.nav.active ul li a{
+    color: #fff;
+}
